@@ -6,3 +6,5 @@
 
 * O banco de dados utilizado foi localDB, ele está na pasta BANCO, chamado "BDMeusJogos".
 	- caso não consiga usar esse banco, tem os scripts de criação das tabelas na pasta "Scripts de Banco"
+	
+* Alterar o appsettings.json na variavel de "DefaultConnection" pra colocar a conexão de banco criada.

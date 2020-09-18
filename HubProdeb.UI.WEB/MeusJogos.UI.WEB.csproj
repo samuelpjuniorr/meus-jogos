@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HubProdeb.Domain\MeusJogos.Domain.csproj" />
+    <ProjectReference Include="..\HubProdeb.Infra.CrossCutting.IoC\MeusJogos.Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\HubProdeb.Infra.Data\MeusJogos.Infra.Data.csproj" />
+    <ProjectReference Include="..\HubProdeb.Services\MeusJogos.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
